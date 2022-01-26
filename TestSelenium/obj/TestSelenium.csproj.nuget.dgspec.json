@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[5.0.0-beta01, )"
+            },
             "DotNetSeleniumExtras.PageObjects.Core": {
               "target": "Package",
               "version": "[4.0.1, )"

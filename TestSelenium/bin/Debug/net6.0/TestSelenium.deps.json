@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "TestSelenium/1.0.0": {
         "dependencies": {
+          "Appium.WebDriver": "5.0.0-beta01",
           "DotNetSeleniumExtras.PageObjects.Core": "4.0.1",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "NUnit": "3.13.2",
@@ -18,6 +19,19 @@
         },
         "runtime": {
           "TestSelenium.dll": {}
+        }
+      },
+      "Appium.WebDriver/5.0.0-beta01": {
+        "dependencies": {
+          "Selenium.Support": "4.0.0",
+          "Selenium.WebDriver": "4.1.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Appium.Net.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
         }
       },
       "coverlet.collector/3.1.0": {},
@@ -46,7 +60,7 @@
           "Microsoft.TestPlatform.TestHost": "16.11.0"
         }
       },
-      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Platforms/2.0.0": {},
       "Microsoft.TestPlatform.ObjectModel/16.11.0": {
         "dependencies": {
           "NuGet.Frameworks": "5.0.0",
@@ -294,9 +308,28 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
       "NETStandard.Library/2.0.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0"
+          "Microsoft.NETCore.Platforms": "2.0.0"
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -327,6 +360,17 @@
         }
       },
       "NUnit3TestAdapter/4.0.0": {},
+      "Selenium.Support/4.0.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.1.0"
+        },
+        "runtime": {
+          "lib/net5.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "Selenium.WebDriver/4.1.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
@@ -339,6 +383,32 @@
         }
       },
       "Selenium.WebDriver.ChromeDriver/96.0.4664.4500": {},
+      "System.Drawing.Common/4.5.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.Win32.SystemEvents": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        }
+      },
       "System.Reflection.Metadata/1.6.0": {}
     }
   },
@@ -347,6 +417,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Appium.WebDriver/5.0.0-beta01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VfCeh+lVcKlQPwqZK/nODTW+l1WxL8Ceb8H6qyUKPKg5J09ombj/ss+5687j+RewAT5tJAihpjmkxGq8UKw2rw==",
+      "path": "appium.webdriver/5.0.0-beta01",
+      "hashPath": "appium.webdriver.5.0.0-beta01.nupkg.sha512"
     },
     "coverlet.collector/3.1.0": {
       "type": "package",
@@ -376,12 +453,12 @@
       "path": "microsoft.net.test.sdk/16.11.0",
       "hashPath": "microsoft.net.test.sdk.16.11.0.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/1.1.0": {
+    "Microsoft.NETCore.Platforms/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
-      "path": "microsoft.netcore.platforms/1.1.0",
-      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
     },
     "Microsoft.TestPlatform.ObjectModel/16.11.0": {
       "type": "package",
@@ -396,6 +473,13 @@
       "sha512": "sha512-/Q+R0EcCJE8JaYCk+bGReicw/xrB0HhecrYrUcLbn95BnAlaTJrZhoLkUhvtKTAVtqX/AIKWXYtutiU/Q6QUgg==",
       "path": "microsoft.testplatform.testhost/16.11.0",
       "hashPath": "microsoft.testplatform.testhost.16.11.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LuI1oG+24TUj1ZRQQjM5Ew73BKnZE5NZ/7eAdh1o8ST5dPhUnJvIkiIn2re3MwnkRy6ELRnvEbBxHP8uALKhJw==",
+      "path": "microsoft.win32.systemevents/4.5.0",
+      "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
     },
     "NETStandard.Library/2.0.0": {
       "type": "package",
@@ -432,6 +516,13 @@
       "path": "nunit3testadapter/4.0.0",
       "hashPath": "nunit3testadapter.4.0.0.nupkg.sha512"
     },
+    "Selenium.Support/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YuCXXY2H5Vco1LgZPLo1MnAfLNs1BSMdaLrCYa3rlrDNQC2LBTiUQLOrh/hCsPzoQWnFHOsiqEe5hnX8HJ/ECw==",
+      "path": "selenium.support/4.0.0",
+      "hashPath": "selenium.support.4.0.0.nupkg.sha512"
+    },
     "Selenium.WebDriver/4.1.0": {
       "type": "package",
       "serviceable": true,
@@ -445,6 +536,13 @@
       "sha512": "sha512-7bH+2/bX4IqPXxnMsbD820pCb1DFLeESIbjpUL/Zgq5wfKJHTxtknrQ1wnlMJmWtbpoNcj6Zck7OfoIVstl3zQ==",
       "path": "selenium.webdriver.chromedriver/96.0.4664.4500",
       "hashPath": "selenium.webdriver.chromedriver.96.0.4664.4500.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GiyeGi/v4xYDz1vCNFwFvhz9k1XddOG7VD3jxRqzRBCbTHji+s3HxxbxtoymuK4OadEpgotI8zQ5+GEEH9sUEQ==",
+      "path": "system.drawing.common/4.5.1",
+      "hashPath": "system.drawing.common.4.5.1.nupkg.sha512"
     },
     "System.Reflection.Metadata/1.6.0": {
       "type": "package",
