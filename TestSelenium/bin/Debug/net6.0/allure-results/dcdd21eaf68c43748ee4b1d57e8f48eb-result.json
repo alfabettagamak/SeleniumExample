@@ -1,0 +1,64 @@
+{
+  "uuid": "b774977c-6066-4d4c-952a-03ca3164f7a1-tr-0-1009",
+  "historyId": "TestSelenium.patterns.PatternsTests.FActoryTest",
+  "fullName": "TestSelenium.patterns.PatternsTests.FActoryTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TIF2TI9"
+    },
+    {
+      "name": "package",
+      "value": "TestSelenium.patterns"
+    },
+    {
+      "name": "testMethod",
+      "value": "FActoryTest"
+    },
+    {
+      "name": "testClass",
+      "value": "PatternsTests"
+    }
+  ],
+  "links": [],
+  "name": "FActoryTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "FActoryTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "FActoryTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d146c2cd2a2748969aedeb11c5f42058-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1643309244774,
+      "stop": 1643309249644
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1643309244774,
+  "stop": 1643309249648
+}

@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[3.13.2, )"
             },
+            "NUnit.Allure": {
+              "target": "Package",
+              "version": "[1.2.1.1, )"
+            },
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.0.0, )"
@@ -65,6 +69,10 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[96.0.4664.4500, )"
+            },
+            "SpecFlow.Allure": {
+              "target": "Package",
+              "version": "[3.5.0.73, )"
             },
             "coverlet.collector": {
               "target": "Package",

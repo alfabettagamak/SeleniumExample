@@ -1,0 +1,64 @@
+{
+  "uuid": "e0e98bf1-853f-4a97-863a-206169d84e15-tr-0-1010",
+  "historyId": "TestSelenium.patterns.PatternsTests.PageElementTesting",
+  "fullName": "TestSelenium.patterns.PatternsTests.PageElementTesting",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TIF2TI9"
+    },
+    {
+      "name": "package",
+      "value": "TestSelenium.patterns"
+    },
+    {
+      "name": "testMethod",
+      "value": "PageElementTesting"
+    },
+    {
+      "name": "testClass",
+      "value": "PatternsTests"
+    }
+  ],
+  "links": [],
+  "name": "PageElementTesting",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "PageElementTesting"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "PageElementTesting",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2e657cfa8b314fc7b6af39f09948f2ec-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1643309255022,
+      "stop": 1643309256477
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1643309255022,
+  "stop": 1643309256478
+}

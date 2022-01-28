@@ -1,0 +1,68 @@
+{
+  "uuid": "6126a762-57a5-40f3-a8f8-15e0e10ee820-tr-0-1007",
+  "historyId": "TestSelenium.patterns.PatternsTests.RegistrationTesting",
+  "fullName": "TestSelenium.patterns.PatternsTests.RegistrationTesting",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TIF2TI9"
+    },
+    {
+      "name": "package",
+      "value": "TestSelenium.patterns"
+    },
+    {
+      "name": "testMethod",
+      "value": "RegistrationTesting"
+    },
+    {
+      "name": "testClass",
+      "value": "PatternsTests"
+    },
+    {
+      "name": "subSuite",
+      "value": "Add"
+    }
+  ],
+  "links": [],
+  "name": "TestTestTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "RegistrationTesting"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "RegistrationTesting",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3a21c36b03804519887296a9e2b448a5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1643310059043,
+      "stop": 1643310066181
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1643310059042,
+  "stop": 1643310066184
+}

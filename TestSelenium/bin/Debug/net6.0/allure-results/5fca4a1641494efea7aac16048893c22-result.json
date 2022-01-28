@@ -1,0 +1,68 @@
+{
+  "uuid": "b82e58b8-ca03-4665-b63f-3a1d1fee6643-tr-0-1008",
+  "historyId": "TestSelenium.patterns.PatternsTests.LoginTesting",
+  "fullName": "TestSelenium.patterns.PatternsTests.LoginTesting",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TIF2TI9"
+    },
+    {
+      "name": "package",
+      "value": "TestSelenium.patterns"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginTesting"
+    },
+    {
+      "name": "testClass",
+      "value": "PatternsTests"
+    },
+    {
+      "name": "subSuite",
+      "value": "Add"
+    }
+  ],
+  "links": [],
+  "name": "TestTestTest!",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LoginTesting"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LoginTesting",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e42f6d96fd49488b9a73c6bef4f5a01a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1643311917476,
+      "stop": 1643311921267
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1643311917476,
+  "stop": 1643311921268
+}

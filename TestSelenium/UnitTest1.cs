@@ -1,4 +1,5 @@
 using System;
+using NUnit.Allure.Core;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -7,6 +8,8 @@ using OpenQA.Selenium.Support.UI;
 namespace TestSelenium
 {
 
+    [TestFixture]
+    [AllureNUnit]
     public class Tests
     {
         private WebDriver driver;

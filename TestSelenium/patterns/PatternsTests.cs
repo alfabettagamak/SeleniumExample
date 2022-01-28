@@ -1,4 +1,7 @@
 ﻿using System;
+using Allure.Commons;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -7,6 +10,10 @@ using SeleniumExtras.PageObjects;
 
 namespace TestSelenium.patterns
 {
+    //https://docs.qameta.io/allure/
+    
+    [TestFixture]
+    [AllureNUnit]
     public class PatternsTests
     {
         private WebDriver driver;
@@ -35,8 +42,13 @@ namespace TestSelenium.patterns
         {
             driver.Quit();
         }
-
-        [Test]
+        
+        [Test(Description = "AllureExample")]
+        [AllureTag("Regression")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureIssue("ISSUE-1")]
+        [AllureTms("TMS-12")]
+        [AllureOwner("User")]
         public void RegistrationTesting()
         {
             Random rnd = new Random();

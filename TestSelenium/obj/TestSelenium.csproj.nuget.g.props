@@ -15,6 +15,16 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)specflow.allure\3.5.0.73\contentFiles\any\netstandard2.0\allureConfig.Template.json" Condition="Exists('$(NuGetPackageRoot)specflow.allure\3.5.0.73\contentFiles\any\netstandard2.0\allureConfig.Template.json')">
+      <NuGetPackageId>SpecFlow.Allure</NuGetPackageId>
+      <NuGetPackageVersion>3.5.0.73</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>allureConfig.Template.json</Link>
+    </Content>
+  </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)nunit3testadapter\4.0.0\build\netcoreapp2.1\NUnit3TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)nunit3testadapter\4.0.0\build\netcoreapp2.1\NUnit3TestAdapter.props')" />
     <Import Project="$(NuGetPackageRoot)nunit\3.13.2\build\NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit\3.13.2\build\NUnit.props')" />
@@ -22,4 +32,8 @@
     <Import Project="$(NuGetPackageRoot)microsoft.codecoverage\16.11.0\build\netstandard1.0\Microsoft.CodeCoverage.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage\16.11.0\build\netstandard1.0\Microsoft.CodeCoverage.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\16.11.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\16.11.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgBoDi Condition=" '$(PkgBoDi)' == '' ">C:\Users\AlisaSkrynko\.nuget\packages\bodi\1.5.0</PkgBoDi>
+    <PkgAspectInjector Condition=" '$(PkgAspectInjector)' == '' ">C:\Users\AlisaSkrynko\.nuget\packages\aspectinjector\2.6.0</PkgAspectInjector>
+  </PropertyGroup>
 </Project>
